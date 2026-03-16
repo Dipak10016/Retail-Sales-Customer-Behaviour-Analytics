@@ -225,7 +225,3 @@ YTD Revenue = TOTALYTD([Total Revenue], 'Date'[Date])
 Built with Python · Pandas · Matplotlib · Seaborn · Power BI
 
 ---
-
-*Dataset is synthetic and generated for educational/portfolio purposes only.*
-#   R e t a i l - S a l e s - C u s t o m e r - B e h a v i o u r - A n a l y t i c s  
- 

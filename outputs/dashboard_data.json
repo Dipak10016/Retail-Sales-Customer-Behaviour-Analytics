@@ -1,0 +1,297 @@
+{
+  "kpis": {
+    "total_revenue": 116039624.5,
+    "total_orders": 10000,
+    "total_customers": 5327,
+    "avg_order_value": 11603.96,
+    "total_profit": 49743596.07,
+    "avg_profit_margin": 50.82,
+    "total_units_sold": 14499
+  },
+  "category_summary": {
+    "Beauty": {
+      "revenue": 1724871.5,
+      "profit": 1034922.9,
+      "orders": 1227,
+      "units": 1834
+    },
+    "Books": {
+      "revenue": 534059.5,
+      "profit": 347139.1,
+      "orders": 787,
+      "units": 1135
+    },
+    "Clothing": {
+      "revenue": 5336083.5,
+      "profit": 2934845.57,
+      "orders": 1779,
+      "units": 2605
+    },
+    "Electronics": {
+      "revenue": 88597628.5,
+      "profit": 35439051.4,
+      "orders": 1958,
+      "units": 2834
+    },
+    "Food & Grocery": {
+      "revenue": 472844.0,
+      "profit": 212779.33,
+      "orders": 1025,
+      "units": 1431
+    },
+    "Home & Garden": {
+      "revenue": 10788334.5,
+      "profit": 5394167.25,
+      "orders": 1208,
+      "units": 1715
+    },
+    "Sports": {
+      "revenue": 6487627.0,
+      "profit": 3373566.04,
+      "orders": 1002,
+      "units": 1446
+    },
+    "Toys": {
+      "revenue": 2098176.0,
+      "profit": 1007124.48,
+      "orders": 1014,
+      "units": 1499
+    }
+  },
+  "regional_summary": {
+    "Central": {
+      "revenue": 17284379.5,
+      "profit": 7444457.48,
+      "orders": 1472
+    },
+    "East": {
+      "revenue": 29950116.0,
+      "profit": 12829799.11,
+      "orders": 2576
+    },
+    "North": {
+      "revenue": 26766623.0,
+      "profit": 11471448.17,
+      "orders": 2214
+    },
+    "South": {
+      "revenue": 21339711.0,
+      "profit": 9076212.36,
+      "orders": 1751
+    },
+    "West": {
+      "revenue": 20698795.0,
+      "profit": 8921678.95,
+      "orders": 1987
+    }
+  },
+  "monthly_data": [
+    {
+      "year": 2023,
+      "month": 1,
+      "revenue": 21397834.5,
+      "orders": 1669
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "revenue": 13616396.5,
+      "orders": 1251
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "revenue": 12807750.0,
+      "orders": 1123
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "revenue": 11912473.5,
+      "orders": 978
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "revenue": 10570195.0,
+      "orders": 860
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "revenue": 8153797.0,
+      "orders": 679
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "revenue": 6970621.5,
+      "orders": 565
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "revenue": 5703527.5,
+      "orders": 479
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "revenue": 3853133.5,
+      "orders": 389
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "revenue": 4206236.0,
+      "orders": 366
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "revenue": 2602403.0,
+      "orders": 262
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "revenue": 2367006.0,
+      "orders": 240
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "revenue": 2375897.0,
+      "orders": 214
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "revenue": 1701386.5,
+      "orders": 161
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "revenue": 1502376.5,
+      "orders": 145
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "revenue": 1044504.0,
+      "orders": 110
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "revenue": 749348.0,
+      "orders": 120
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "revenue": 784612.0,
+      "orders": 80
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "revenue": 1135511.5,
+      "orders": 70
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "revenue": 706600.0,
+      "orders": 70
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "revenue": 727566.0,
+      "orders": 56
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "revenue": 372790.5,
+      "orders": 39
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "revenue": 441744.5,
+      "orders": 41
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "revenue": 335914.0,
+      "orders": 33
+    }
+  ],
+  "top_products": {
+    "Laptop": {
+      "revenue": 32439293.0,
+      "units": 474
+    },
+    "Smartphone": {
+      "revenue": 18616655.5,
+      "units": 452
+    },
+    "Camera": {
+      "revenue": 17502336.5,
+      "units": 473
+    },
+    "Tablet": {
+      "revenue": 12507895.5,
+      "units": 462
+    },
+    "Sofa": {
+      "revenue": 6729879.5,
+      "units": 290
+    },
+    "Smartwatch": {
+      "revenue": 5248876.0,
+      "units": 473
+    },
+    "Cycling Gear": {
+      "revenue": 2338106.0,
+      "units": 318
+    },
+    "Headphones": {
+      "revenue": 2282572.0,
+      "units": 500
+    },
+    "Kitchen Set": {
+      "revenue": 2158712.0,
+      "units": 298
+    },
+    "Dumbbell Set": {
+      "revenue": 1613724.5,
+      "units": 288
+    }
+  },
+  "payment_data": {
+    "UPI": 3033,
+    "Credit Card": 2774,
+    "Debit Card": 2196,
+    "Net Banking": 811,
+    "Cash": 678,
+    "EMI": 508
+  },
+  "gender_data": {
+    "Female": 52417625.0,
+    "Male": 58583481.5,
+    "Other": 2962165.5,
+    "Unknown": 2076352.5
+  },
+  "age_group_data": {
+    "18-25": 14312149.5,
+    "26-35": 37596735.5,
+    "36-45": 35344813.0,
+    "46-55": 14821245.0,
+    "56-70": 4159612.0
+  }
+}
