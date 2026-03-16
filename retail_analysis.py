@@ -19,3 +19,14 @@ def log_step(message):
     # Configurable dataset size
 DATASET_SIZE = 10000
 N = DATASET_SIZE
+
+def validate_dataset(df):
+    """Basic validation checks for generated dataset."""
+    if df.empty:
+        raise ValueError("Dataset generation failed: DataFrame is empty")
+    if 'order_id' not in df.columns:
+        raise ValueError("Missing critical column: order_id")
+    
+    df = pd.DataFrame({
+        
+        validate_dataset(df)
