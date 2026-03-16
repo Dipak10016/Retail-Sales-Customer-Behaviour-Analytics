@@ -44,3 +44,6 @@ quality_report = {
 
 with open("outputs/data_quality_report.json", "w") as f:
     json.dump(quality_report, f, indent=2)
+    category_profit_rank = df_clean.groupby("product_category")["profit"].sum().sort_values(ascending=False)
+print("\nTop Categories by Profit:")
+print(category_profit_rank.head())
