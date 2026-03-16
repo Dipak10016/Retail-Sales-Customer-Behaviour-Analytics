@@ -4,3 +4,12 @@
 # Description: End-to-end synthetic retail data generation,
 # cleaning, KPI calculation, and visualization.
 # ─────────────────────────────────────────────────────────
+def log_step(message):
+    """Utility function for consistent logging."""
+    print(f"[INFO] {message}")
+    
+    print("✅ Output folders ready")
+    
+    log_step("Output folders created successfully")
+    
+    log_step("Output folders created successfully")
