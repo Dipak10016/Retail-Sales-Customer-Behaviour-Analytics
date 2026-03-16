@@ -13,3 +13,9 @@ def log_step(message):
     log_step("Output folders created successfully")
     
     log_step("Output folders created successfully")
+    
+    N = 10000
+    
+    # Configurable dataset size
+DATASET_SIZE = 10000
+N = DATASET_SIZE
