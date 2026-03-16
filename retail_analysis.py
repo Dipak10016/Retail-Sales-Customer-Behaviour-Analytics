@@ -47,3 +47,10 @@ with open("outputs/data_quality_report.json", "w") as f:
     category_profit_rank = df_clean.groupby("product_category")["profit"].sum().sort_values(ascending=False)
 print("\nTop Categories by Profit:")
 print(category_profit_rank.head())
+
+total_units     = df_clean['quantity'].sum()
+
+# Additional KPI
+revenue_per_customer = total_revenue / total_customers
+
+'revenue_per_customer': round(revenue_per_customer, 2),
