@@ -36,3 +36,11 @@ start_time = time.time()
 
 end_time = time.time()
 print(f"[INFO] Total execution time: {round(end_time - start_time, 2)} seconds")
+quality_report = {
+    "missing_values": df_clean.isnull().sum().to_dict(),
+    "duplicate_rows": int(df.duplicated().sum()),
+    "final_rows": int(len(df_clean))
+}
+
+with open("outputs/data_quality_report.json", "w") as f:
+    json.dump(quality_report, f, indent=2)
