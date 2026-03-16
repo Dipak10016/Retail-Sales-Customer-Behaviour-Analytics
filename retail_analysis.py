@@ -30,3 +30,9 @@ def validate_dataset(df):
     df = pd.DataFrame({
         
         validate_dataset(df)
+        
+        import time
+start_time = time.time()
+
+end_time = time.time()
+print(f"[INFO] Total execution time: {round(end_time - start_time, 2)} seconds")
